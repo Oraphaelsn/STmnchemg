@@ -1,0 +1,77 @@
+✅ 1. Otimização de Conversão (CRO)
+A. Ajustes em copy e call-to-action
+Testar diferentes títulos principais (hero) com mais impacto emocional ou urgência:
+Ex: “Internação Psiquiátrica Segura e Imediata com Equipe Especializada” vs. “Seu recomeço começa aqui”
+
+Usar CTAs mais claros e ativos como:
+
+“Fale agora com um especialista”
+
+“Internação imediata – clique aqui”
+
+“Agende uma avaliação gratuita”
+
+Inserir mini-formulário no topo da página (nome, telefone, cidade) com botão “Quero Falar com um Especialista”
+
+B. Provas sociais e autoridade
+Incluir depoimentos reais de familiares ou pacientes (com autorização)
+
+Adicionar selos de certificação (ISO 9001:2015) ou associação a órgãos (CRM, ANVISA etc.)
+
+Mostrar número de pacientes tratados, tempo de experiência da clínica e histórias de sucesso
+
+✅ 2. Design e Experiência do Usuário (UX/UI)
+A. Performance
+Página deve carregar em menos de 2 segundos, especialmente em celulares
+
+Imagens otimizadas (sem perder qualidade)
+
+B. Responsividade
+Layout adaptado para mobile-first (a maioria dos acessos vem do celular)
+
+Botões grandes, textos legíveis e CTA fixo (como botão flutuante de WhatsApp)
+
+C. Hierarquia visual
+Destaques visuais nos benefícios e diferenciais (ex: cards com ícones)
+
+Uso de cores calmantes (tons de azul, verde, cinza claro)
+
+Evitar poluição visual e excesso de texto corrido
+
+✅ 3. Elementos Técnicos e Psicológicos
+A. Urgência e escassez
+Inserir frases como:
+
+“Internações com vagas limitadas”
+
+“Atendimento 24h – Acolhimento imediato”
+
+Inserir contador regressivo (em campanhas específicas)
+
+B. Rastreabilidade e remarketing
+Inserção de pixel do Meta/Facebook, Google Tag Manager e eventos de conversão
+
+Configurar eventos para cliques em botões, preenchimento de formulário, chamadas
+
+✅ 4. Testes A/B
+Recomenda-se testar 2 ou mais versões da landing para ver qual converte mais:
+
+Elemento Testado	Variações Possíveis
+Título principal	Emocional vs. técnico
+CTA	“Agendar” vs. “Falar agora”
+Formulário	Completo vs. nome + telefone
+Hero Image	Foto da clínica vs. pessoa acolhida
+Depoimento	Em texto vs. vídeo curto
+
+✅ 5. Conteúdo de Suporte
+Criar uma seção de FAQ (perguntas frequentes) com dúvidas comuns sobre internação, voluntária/involuntária, convênios etc.
+
+Criar um blog ou área com conteúdos sobre saúde mental, com SEO, para atrair visitantes organicamente
+
+✅ 6. Integração com Equipe Comercial
+Conectar formulário e botão do WhatsApp diretamente com atendentes treinados
+
+Scripts humanizados de resposta imediata (ex: “Olá, obrigado por confiar em nosso acolhimento…”)
+
+Automatizar o acompanhamento de leads (via CRM, RD Station, WhatsApp API etc.)
+
