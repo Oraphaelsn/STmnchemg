@@ -1,3 +1,5 @@
+import videoPath from "@assets/WhatsApp Video 2025-07-18 at 09.25.19_1752995612939-BMs3pHkN_1754246975683.mp4";
+
 export default function VideoSection() {
   return (
     <section className="py-20 bg-gradient-to-b from-gray-50 to-white">
@@ -20,7 +22,7 @@ export default function VideoSection() {
                 className="absolute inset-0 w-full h-full object-cover"
                 poster="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1920 1080'%3E%3Crect width='1920' height='1080' fill='%23f3f4f6'/%3E%3Ctext x='50%25' y='50%25' text-anchor='middle' dy='0.3em' font-size='48' fill='%236b7280'%3EEstância Morro Grande%3C/text%3E%3C/svg%3E"
               >
-                <source src="/attached_assets/WhatsApp Video 2025-07-18 at 09.25.19_1752995612939-BMs3pHkN_1754246975683.mp4" type="video/mp4" />
+                <source src={videoPath} type="video/mp4" />
                 Seu navegador não suporta a reprodução de vídeo.
               </video>
             </div>

@@ -1,3 +1,5 @@
+import logoPath from "@assets/1x1_1754246987711.png";
+
 export default function Footer() {
   const specialties = [
     { name: "Dependência Química", href: "#especialidades" },
@@ -65,7 +67,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center mb-6">
               <img 
-                src="/attached_assets/1x1_1754246987711.png" 
+                src={logoPath} 
                 alt="Estância Morro Grande" 
                 className="h-10 w-auto filter brightness-0 invert"
               />

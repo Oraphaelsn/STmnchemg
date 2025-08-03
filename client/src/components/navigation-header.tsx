@@ -1,4 +1,5 @@
 import { useState } from "react";
+import logoPath from "@assets/1x1_1754246987711.png";
 
 export default function NavigationHeader() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ export default function NavigationHeader() {
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center">
             <img 
-              src="/attached_assets/1x1_1754246987711.png" 
+              src={logoPath} 
               alt="Estância Morro Grande" 
               className="h-12 w-auto"
             />
