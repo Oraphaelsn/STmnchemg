@@ -1,0 +1,74 @@
+Prompt sugerido:
+
+Objetivo: Criar uma landing page para a Estância Morro Grande, um hospital de saúde mental localizado em Ibiúna/SP, usando a estrutura, layout e estilo da landing do Hospital Santa Mônica.
+
+Sobre a Estância Morro Grande:
+• Hospital de saúde mental em Ibiúna/SP, com certificação ISO 9001:2015 e abordagem humanista desde 2002, equipe multidisciplinar com mais de 100 profissionais, foco em reinserção social e acolhimento individualizado 
+fonefacilibiuna.com.br
+hospitaisestancia.com.br
++3
+HOSPITAL PSIQUIÁTRICO - INTERNAÇÕES
++3
+fonefacilibiuna.com.br
++3
+fonefacilibiuna.com.br
++2
+FindGlocal
++2
+WorldOrgs
++2
+.
+• Pertence ao grupo Hospitais Estância, maior rede própria de hospitais psiquiátricos no Brasil, com atuação em vários estados, ~450 leitos e centenas de internações por ano 
+hospitaisestancia.com.br
+.
+
+Referência estruturada (Hospital Santa Mônica):
+A landing deve seguir o fluxo da página da unidade de saúde mental do Hospital Santa Mônica, incluindo:
+
+Hero com título forte (“Sua saúde mental merece o melhor cuidado”) e chamada para ação (botão de contato via WhatsApp ou telefone) 
+hd.hospitalsantamonica.com.br
+.
+
+Seção de especialidades e tratamentos, com destaques como dependência química, depressão, transtorno bipolar, ansiedade, TEA, internação voluntária ou involuntária, hospital-dia, tratamento infantojuvenil e programas de reabilitação 
+hospitalsantamonica.com.br
++1
+hd.hospitalsantamonica.com.br
++1
+.
+
+Seção sobre equipe multidisciplinar (psiquiatras, psicólogos, terapeutas, enfermeiros etc.) e infraestrutura acolhedora, ambiente em meio à natureza 
+reddit.com
++2
+hd.hospitalsantamonica.com.br
++2
+psi.hospitalsantamonica.com.br
++2
+.
+
+Destaque para diferenciais da instituição, incluindo certificações (ISO 9001, perfil humanista, acolhimento, localização em cinturão verde) 
+HOSPITAL PSIQUIÁTRICO - INTERNAÇÕES
+.
+
+Depoimentos ou sociais (family testimonials), chamadas para conversão imediata como canal de internação 24h, agendamento ou WhatsApp 
+HOSPITAL PSIQUIÁTRICO - INTERNAÇÕES
+.
+
+Requisitos de layout e estilo:
+
+Seguir cabeçalhos, seções em blocos horizontais com imagens e CTAs.
+
+Tom humano, acolhedor e institucional.
+
+Usar botões de ação destacados para ligações e WhatsApp.
+
+Incluir seções sobre planos/convênios (se aplicável).
+
+Incluir blog ou conteúdos educativos caso a Estância tenha materiais (como no Hospital Santa Mônica).
+
+Entrega esperada:
+
+Copy textual para cada seção: títulos, subtítulos, bullets, CTAs.
+
+Sugestão de estrutura visual: ordem de seções, hierarquia (H1, H2 etc.), recomendações de imagens ilustrativas (ex: natureza, equipe, paciente em acolhimento).
+
+Leve inspiração de estilo (cores neutras e calmas, tipografia profissional, layout organizado com espaços em branco).
