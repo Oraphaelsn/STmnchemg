@@ -11,6 +11,7 @@ import Footer from "@/components/footer";
 import WhatsAppButton from "@/components/whatsapp-button";
 import MiniContactForm from "@/components/mini-contact-form";
 import FAQSection from "@/components/faq-section";
+import VideoSection from "@/components/video-section";
 
 export default function Home() {
   return (
@@ -53,6 +54,7 @@ export default function Home() {
       </section>
 
       <SpecialtiesSection />
+      <VideoSection />
       <TeamSection />
       <DifferentialsSection />
       <TestimonialsSection />
