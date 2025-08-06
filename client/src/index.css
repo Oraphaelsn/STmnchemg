@@ -3,57 +3,85 @@
 @tailwind utilities;
 
 :root {
+  /* Paleta baseada em #2c744c (verde médico confiável) */
   --background: hsl(0, 0%, 100%);
-  --foreground: hsl(20, 14.3%, 4.1%);
-  --muted: hsl(60, 4.8%, 95.9%);
-  --muted-foreground: hsl(25, 5.3%, 44.7%);
+  --foreground: hsl(140, 35%, 15%);
+  --muted: hsl(140, 15%, 96%);
+  --muted-foreground: hsl(140, 10%, 45%);
   --popover: hsl(0, 0%, 100%);
-  --popover-foreground: hsl(20, 14.3%, 4.1%);
+  --popover-foreground: hsl(140, 35%, 15%);
   --card: hsl(0, 0%, 100%);
-  --card-foreground: hsl(20, 14.3%, 4.1%);
-  --border: hsl(20, 5.9%, 90%);
-  --input: hsl(20, 5.9%, 90%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(142, 76%, 36%);
-  --secondary-foreground: hsl(355, 100%, 97%);
-  --accent: hsl(20, 90%, 48%);
-  --accent-foreground: hsl(60, 9.1%, 97.8%);
-  --destructive: hsl(0, 84.2%, 60.2%);
-  --destructive-foreground: hsl(60, 9.1%, 97.8%);
-  --ring: hsl(20, 14.3%, 4.1%);
-  --radius: 0.5rem;
-  --success: hsl(142, 76%, 36%);
-  --success-foreground: hsl(355, 100%, 97%);
-  --warning: hsl(38, 92%, 50%);
-  --warning-foreground: hsl(48, 96%, 89%);
+  --card-foreground: hsl(140, 35%, 15%);
+  --border: hsl(140, 15%, 88%);
+  --input: hsl(140, 15%, 92%);
+  
+  /* Cor principal: #2c744c e variações */
+  --primary: hsl(140, 45%, 31%); /* #2c744c */
+  --primary-foreground: hsl(0, 0%, 100%);
+  --primary-light: hsl(140, 50%, 40%); /* versão mais clara */
+  --primary-dark: hsl(140, 50%, 25%); /* versão mais escura */
+  
+  /* Cores secundárias que complementam o verde */
+  --secondary: hsl(140, 25%, 92%); /* verde muito claro para fundos */
+  --secondary-foreground: hsl(140, 45%, 31%);
+  --accent: hsl(200, 60%, 45%); /* azul confiável para CTAs */
+  --accent-foreground: hsl(0, 0%, 100%);
+  
+  /* Cores de suporte */
+  --success: hsl(140, 45%, 31%); /* usa o verde principal */
+  --success-foreground: hsl(0, 0%, 100%);
+  --warning: hsl(35, 85%, 55%); /* laranja suave */
+  --warning-foreground: hsl(0, 0%, 100%);
+  --destructive: hsl(0, 70%, 50%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  
+  /* Elementos complementares */
+  --ring: hsl(140, 45%, 31%);
+  --radius: 0.75rem;
+  
+  /* Cores adicionais para marketing */
+  --trust-blue: hsl(200, 60%, 45%);
+  --soft-green: hsl(140, 25%, 92%);
+  --warm-gold: hsl(35, 85%, 55%);
 }
 
 .dark {
-  --background: hsl(240, 10%, 3.9%);
-  --foreground: hsl(0, 0%, 98%);
-  --muted: hsl(240, 3.7%, 15.9%);
-  --muted-foreground: hsl(240, 5%, 64.9%);
-  --popover: hsl(240, 10%, 3.9%);
-  --popover-foreground: hsl(0, 0%, 98%);
-  --card: hsl(240, 10%, 3.9%);
-  --card-foreground: hsl(0, 0%, 98%);
-  --border: hsl(240, 3.7%, 15.9%);
-  --input: hsl(240, 3.7%, 15.9%);
-  --primary: hsl(207, 90%, 54%);
-  --primary-foreground: hsl(211, 100%, 99%);
-  --secondary: hsl(142, 76%, 36%);
-  --secondary-foreground: hsl(355, 100%, 97%);
-  --accent: hsl(20, 90%, 48%);
-  --accent-foreground: hsl(60, 9.1%, 97.8%);
-  --destructive: hsl(0, 62.8%, 30.6%);
-  --destructive-foreground: hsl(0, 0%, 98%);
-  --ring: hsl(240, 4.9%, 83.9%);
-  --radius: 0.5rem;
-  --success: hsl(142, 76%, 36%);
-  --success-foreground: hsl(355, 100%, 97%);
-  --warning: hsl(38, 92%, 50%);
-  --warning-foreground: hsl(48, 96%, 89%);
+  /* Tema escuro mantendo a identidade verde */
+  --background: hsl(140, 15%, 8%);
+  --foreground: hsl(0, 0%, 95%);
+  --muted: hsl(140, 10%, 15%);
+  --muted-foreground: hsl(140, 8%, 65%);
+  --popover: hsl(140, 15%, 8%);
+  --popover-foreground: hsl(0, 0%, 95%);
+  --card: hsl(140, 12%, 12%);
+  --card-foreground: hsl(0, 0%, 95%);
+  --border: hsl(140, 10%, 20%);
+  --input: hsl(140, 10%, 18%);
+  
+  /* Cores principais no tema escuro */
+  --primary: hsl(140, 50%, 45%); /* verde mais claro no escuro */
+  --primary-foreground: hsl(140, 15%, 8%);
+  --primary-light: hsl(140, 55%, 55%);
+  --primary-dark: hsl(140, 45%, 35%);
+  
+  --secondary: hsl(140, 15%, 15%);
+  --secondary-foreground: hsl(140, 50%, 65%);
+  --accent: hsl(200, 55%, 55%);
+  --accent-foreground: hsl(140, 15%, 8%);
+  
+  --success: hsl(140, 50%, 45%);
+  --success-foreground: hsl(140, 15%, 8%);
+  --warning: hsl(35, 80%, 60%);
+  --warning-foreground: hsl(140, 15%, 8%);
+  --destructive: hsl(0, 65%, 55%);
+  --destructive-foreground: hsl(0, 0%, 95%);
+  
+  --ring: hsl(140, 50%, 45%);
+  --radius: 0.75rem;
+  
+  --trust-blue: hsl(200, 55%, 55%);
+  --soft-green: hsl(140, 15%, 15%);
+  --warm-gold: hsl(35, 80%, 60%);
 }
 
 @layer base {
