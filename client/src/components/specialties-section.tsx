@@ -45,8 +45,8 @@ export default function SpecialtiesSection() {
       title: "Ansiedade",
       description: "Tratamento para transtornos de ansiedade, síndrome do pânico e fobias com técnicas modernas de terapia.",
       features: ["Terapia cognitivo-comportamental", "Técnicas de relaxamento", "Controle da ansiedade"],
-      bgColor: "from-yellow-50 to-yellow-100",
-      iconBg: "bg-yellow-500"
+      bgColor: "from-[var(--soft-green)] to-[var(--secondary)]",
+      iconBg: "bg-[var(--warm-gold)]"
     },
     {
       icon: (
@@ -103,7 +103,7 @@ export default function SpecialtiesSection() {
       ),
       title: "Hospital-Dia",
       description: "Tratamento intensivo durante o dia, retorno para casa à noite",
-      bgColor: "bg-yellow-50"
+      bgColor: "bg-[var(--soft-green)]"
     }
   ];
 

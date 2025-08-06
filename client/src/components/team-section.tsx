@@ -77,8 +77,8 @@ export default function TeamSection() {
       ),
       title: "Espaços Terapêuticos",
       description: "Salas de terapia, recreação e atividades físicas",
-      bgColor: "bg-yellow-100",
-      iconColor: "text-yellow-600"
+      bgColor: "bg-[var(--soft-green)]",
+      iconColor: "text-[var(--warm-gold)]"
     }
   ];
 

@@ -41,8 +41,8 @@ export default function DifferentialsSection() {
       ),
       title: "Desde 2002",
       description: "Mais de 20 anos de experiência em tratamentos de saúde mental",
-      bgColor: "from-yellow-50 to-yellow-100",
-      iconBg: "bg-yellow-500"
+      bgColor: "from-[var(--soft-green)] to-[var(--secondary)]",
+      iconBg: "bg-[var(--warm-gold)]"
     }
   ];
 
@@ -69,7 +69,7 @@ export default function DifferentialsSection() {
         </div>
 
         {/* Hospital Network Information */}
-        <div className="mt-16 bg-gradient-to-br from-[hsl(207,90%,97%)] to-[hsl(142,76%,96%)] rounded-2xl p-8 lg:p-12">
+        <div className="mt-16 bg-gradient-to-br from-[var(--soft-green)] to-[var(--secondary)] rounded-2xl p-8 lg:p-12">
           <div className="text-center mb-8">
             <h3 className="text-3xl font-semibold text-gray-900 mb-4">Grupo Hospitais Estância</h3>
             <p className="text-xl text-gray-600">
@@ -79,19 +79,19 @@ export default function DifferentialsSection() {
           
           <div className="grid md:grid-cols-3 gap-8 text-center">
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="text-3xl font-bold text-[hsl(207,90%,54%)] mb-2">450+</div>
+              <div className="text-3xl font-bold text-[var(--trust-blue)] mb-2">450+</div>
               <div className="text-gray-900 font-semibold mb-1">Leitos Disponíveis</div>
               <div className="text-sm text-gray-600">Em toda a rede nacional</div>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="text-3xl font-bold text-[hsl(142,76%,36%)] mb-2">100+</div>
+              <div className="text-3xl font-bold text-[var(--primary)] mb-2">100+</div>
               <div className="text-gray-900 font-semibold mb-1">Profissionais</div>
               <div className="text-sm text-gray-600">Equipe multidisciplinar especializada</div>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm">
-              <div className="text-3xl font-bold text-[hsl(20,90%,48%)] mb-2">1000+</div>
+              <div className="text-3xl font-bold text-[var(--warm-gold)] mb-2">1000+</div>
               <div className="text-gray-900 font-semibold mb-1">Internações/Ano</div>
               <div className="text-sm text-gray-600">Atendimentos realizados</div>
             </div>

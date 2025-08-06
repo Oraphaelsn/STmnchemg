@@ -28,8 +28,8 @@ export default function TestimonialsSection() {
       name: "Sandra T.",
       role: "Familiar de paciente - Campinas/SP", 
       message: "Minha filha foi internada em estado crítico e a equipe da Estância nos acolheu 24h. O tratamento humanizado e a participação da família no processo foram fundamentais. Hoje ela está bem e em acompanhamento ambulatorial.",
-      bgColor: "bg-yellow-50",
-      iconColor: "text-yellow-600",
+      bgColor: "bg-[var(--soft-green)]",
+      iconColor: "text-[var(--warm-gold)]",
       treatment: "Emergência Psiquiátrica - TEA"
     }
   ];

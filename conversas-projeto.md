@@ -33,15 +33,19 @@
 
 ### Implementações Realizadas (06/08/2025):
 
-#### 1. Nova Paleta de Cores:
+#### 1. Nova Paleta de Cores Harmonizada:
 - **Cor Principal:** #2c744c (verde médico confiável)
 - **Cores Complementares:** 
   - Verde claro para fundos suaves: hsl(140, 25%, 92%)
   - Azul confiança para CTAs: hsl(200, 60%, 45%)
-  - Laranja suave para avisos: hsl(35, 85%, 55%)
+  - Dourado suave para destaques: hsl(35, 85%, 55%)
 - **Variações do Verde Principal:**
   - Versão clara: hsl(140, 50%, 40%)
   - Versão escura: hsl(140, 50%, 25%)
+- **Substituição Completa de Cores Laranjas:** ✅ Finalizada
+  - Todos os elementos visuais agora seguem a paleta harmonizada
+  - Hero Section, Contact Section, Forms, Diferenciais, Especialidades
+  - Testimonials, Team Section e Mini Contact Form atualizados
 
 #### 2. Cabeçalho Redesenhado:
 - **Efeitos Visuais:** Backdrop blur, transições suaves
