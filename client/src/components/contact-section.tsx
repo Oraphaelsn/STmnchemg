@@ -125,11 +125,11 @@ export default function ContactSection() {
   ];
 
   return (
-    <section id="contato" className="py-20 bg-[hsl(207,90%,39%)] text-white">
+    <section id="contato" className="py-20 bg-gradient-to-br from-[var(--primary)] to-[var(--primary-dark)] text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Entre em Contato</h2>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="text-xl text-green-100 max-w-3xl mx-auto">
             Estamos disponíveis 24 horas por dia para orientação e emergências em saúde mental
           </p>
         </div>
@@ -146,15 +146,15 @@ export default function ContactSection() {
                   href={info.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-start hover:bg-[hsl(207,90%,34%)] p-4 rounded-lg transition-colors group"
+                  className="flex items-start hover:bg-[var(--primary-light)] hover:bg-opacity-30 p-4 rounded-lg transition-colors group"
                 >
                   <div className={`${info.bgColor} w-12 h-12 rounded-full flex items-center justify-center mr-4 flex-shrink-0 text-white group-hover:scale-110 transition-transform`}>
                     {info.icon}
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1 group-hover:text-white">{info.title}</h4>
-                    <p className="text-blue-100 mb-2 font-medium">{info.content}</p>
-                    <p className="text-sm text-blue-200">{info.description}</p>
+                    <p className="text-green-100 mb-2 font-medium">{info.content}</p>
+                    <p className="text-sm text-green-200">{info.description}</p>
                   </div>
                 </a>
               ))}
@@ -167,7 +167,7 @@ export default function ContactSection() {
                 </svg>
                 <h4 className="font-semibold">Emergência Psiquiátrica</h4>
               </div>
-              <p className="text-blue-100 text-sm mb-3">
+              <p className="text-green-100 text-sm mb-3">
                 Se você ou alguém que você conhece está em crise ou pensando em se machucar, procure ajuda imediatamente.
               </p>
               <div className="flex space-x-4">

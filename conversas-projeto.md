@@ -46,6 +46,10 @@
   - Todos os elementos visuais agora seguem a paleta harmonizada
   - Hero Section, Contact Section, Forms, Diferenciais, Especialidades
   - Testimonials, Team Section e Mini Contact Form atualizados
+- **Fundo da Seção de Contato:** ✅ Harmonizado
+  - Substituído fundo azul por gradiente verde da paleta principal
+  - Cores de texto atualizadas para green-100/green-200 (mais harmoniosas)
+  - Efeitos hover usando verde claro com opacidade
 
 #### 2. Cabeçalho Redesenhado:
 - **Efeitos Visuais:** Backdrop blur, transições suaves
